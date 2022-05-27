@@ -40,8 +40,27 @@ console.log(l);
 //let l ="400"; // let l is already been declared
 //console.log(l);
 
-l ="900"; //let m l ko reintialize kar sakte but redeclare nhi
+l ="900"; //let m l ko reintialize  variable kar sakte but redeclare nhi
 console.log(l);
+
+//loop condtions in js
+var num =16;
+for(var i=0;i<num;i++){
+    if(i % 2==0){
+        console.log("num is even"+num);
+    }
+    
+}
+
+//const in js
+const t ="40";
+console.log(t);
+
+const t = "55"; //redeclartion is not done in const variable syntaxerror
+console.log(t);
+
+t ="88"; //reinitialze is not done in const variable
+console.log("fitness freak)";
 
 
 
