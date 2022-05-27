@@ -31,3 +31,19 @@ console.log(a);
 a = "1000"; //a is reintialze
 console.log(a);
 
+//overcome this reiniliaze and redeclare in var introduce let
+
+//let topic
+let l ="80";
+console.log(l);
+
+//let l ="400"; // let l is already been declared
+//console.log(l);
+
+l ="900"; //let m l ko reintialize kar sakte but redeclare nhi
+console.log(l);
+
+
+
+
+
