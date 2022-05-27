@@ -18,3 +18,16 @@ console.log(b);
 //use of \n to add content in one line
 var num = 4500;
 console.log(`half of ${num}is half ${num/2} is`);
+
+
+//var topic
+var a;
+var a ="100";  //a is declare
+console.log(a);
+
+var a = "500";  //a is redeclare
+console.log(a);
+
+a = "1000"; //a is reintialze
+console.log(a);
+
