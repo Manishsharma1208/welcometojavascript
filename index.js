@@ -76,13 +76,20 @@ for(var i=0;i<num;i++){
 let j=20;
 for(let j=0;j<num;j++){
     let j = 50;
-    let m= 1000;;
+   // let m= 1000;;
     if(j%2 ==0){
         console.log("inner part"+ j);
     }
 }
 console.log("outer part"+ j);
-console.log(m); //its out of block its gives m is not defined
+//console.log(m); //its out of block its gives m is not defined
+
+//function expression
+let sayhii = function(){
+  console.log("hello Everyone welcome in javascipt");
+}
+console.log("line 59\n"+ sayhii);
+sayhii();
 
 
 
