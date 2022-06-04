@@ -84,12 +84,38 @@ for(let j=0;j<num;j++){
 console.log("outer part"+ j);
 //console.log(m); //its out of block its gives m is not defined
 
-//function expression
+//function expression:- sayhii is an expreesion of function
 let sayhii = function(){
   console.log("hello Everyone welcome in javascipt");
 }
 console.log("line 59\n"+ sayhii);
 sayhii();
+
+//functioin can be passed ad parameter/argument
+//add,mul,div,sub:-
+function calculator(str,a,b){
+  if(str == 'add'){
+    return function add(){
+      console.log(a + b);
+    }
+  }
+}
+let returnedfunc = calculator('add',2,5);
+console.log("returned function\n" + returnedfunc);
+returnedfunc();
+
+//multiply two parameter:-
+function calculator(str,a,b){
+  if(str == 'multiply'){
+    return function multiply(){
+      console.log(a*b);
+    }
+  }
+}
+let returnedfun = calculator('multiply',5,7);
+console.log("returnedfun\n" + returnedfun);
+returnedfun();
+
 
 
 
