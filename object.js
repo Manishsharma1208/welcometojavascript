@@ -82,3 +82,5 @@ let fire ={
 };
 car.startEngine();
 
+console.log(typeof captainAmerica.Friends)
+
